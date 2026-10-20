@@ -261,3 +261,9 @@ section[id]{scroll-margin-top:90px}
 .day h3{font-size:1rem;margin:0 0 4px;letter-spacing:.12em}.day p{margin:0;font-size:1.12rem}
 @media(max-width:700px){.day:before{left:6px}.day li{grid-template-columns:1fr;padding-left:34px}.day li:after{left:2px}.day .dt{grid-row:auto;text-align:left;padding:0 0 6px}}
 
+/* QA fixes */
+.brand.logo{display:flex;align-items:center;min-height:44px}
+@media(max-width:900px){.comm .two{grid-template-columns:1fr!important;gap:40px!important}.fmt{grid-template-columns:1fr!important}}
+
+.vl figure img{width:100%;aspect-ratio:4/3;object-fit:cover}
+
