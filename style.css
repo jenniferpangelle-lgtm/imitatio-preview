@@ -273,3 +273,5 @@ blockquote cite{display:block;margin-top:14px}
 .essay p{text-align:left}
 @media(max-width:700px){section{padding:84px 0}.pagehead{padding:84px 22px 16px}blockquote{margin:40px auto}.grid{gap:40px}}
 
+.go .btn{margin:7px 5px}
+
