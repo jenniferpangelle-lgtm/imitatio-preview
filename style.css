@@ -225,3 +225,12 @@ header.top.over:not(.solid):has(#mainnav.open){background:rgba(247,242,232,.97)!
 .final .trio{margin:90px 0 0;font:500 .72rem var(--sans);letter-spacing:.32em;color:var(--sienna)}.final blockquote{font-size:1.1rem;margin-top:16px}
 @media(max-width:700px){.pair{grid-template-columns:1fr}.cred.three{grid-template-columns:1fr}.bleed img{height:62vh}.prose{margin:70px auto 60px;font-size:1.18rem}.ch{padding:110px 0 20px}.bleed figcaption{padding:0 22px}}
 
+/* mobile fix: intro under the photo; header logo fades in after the hero */
+header.top.fadelogo .brand{transition:opacity .45s ease}
+header.top.nologo .brand{opacity:0;pointer-events:none}
+.h0in{padding-bottom:40px}.h0rule{margin-bottom:0}
+.h0intro{padding:80px 0 30px;text-align:center;background:#f7f2e8}
+.h0intro p{max-width:700px;margin:0 auto 44px;font-size:1.42rem;line-height:1.65;color:var(--ink)}
+.h0intro .btns{display:flex;gap:18px;justify-content:center;flex-wrap:wrap}
+@media(max-width:700px){.h0intro{padding:56px 0 10px}.h0intro p{font-size:1.24rem;margin-bottom:34px}.h0intro .btns{flex-direction:column;align-items:center}.h0intro .btn{width:min(300px,100%)}.h0{min-height:0;height:86svh}.h0in{padding:80px 22px 40px}}
+
