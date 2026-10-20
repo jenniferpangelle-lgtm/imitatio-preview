@@ -234,3 +234,8 @@ header.top.nologo .brand{opacity:0;pointer-events:none}
 .h0intro .btns{display:flex;gap:18px;justify-content:center;flex-wrap:wrap}
 @media(max-width:700px){.h0intro{padding:56px 0 10px}.h0intro p{font-size:1.24rem;margin-bottom:34px}.h0intro .btns{flex-direction:column;align-items:center}.h0intro .btn{width:min(300px,100%)}.h0{min-height:0;height:86svh}.h0in{padding:80px 22px 40px}}
 
+/* solid bar (2026-10-19): header never sits on the photo */
+.h0:not(.h0b){height:calc(100vh - 84px);height:calc(100svh - 84px);min-height:560px}
+@media(max-width:560px){.h0:not(.h0b){height:calc(100svh - 64px);min-height:0}}
+.h0:before{background:radial-gradient(ellipse 62% 58% at 50% 52%,rgba(14,16,24,.68),rgba(14,16,24,.32) 70%,rgba(14,16,24,.12))}
+
