@@ -241,3 +241,14 @@ header.top.nologo .brand{opacity:0;pointer-events:none}
 
 @media(max-width:700px){.h0:before{background:linear-gradient(rgba(14,16,24,.45),rgba(14,16,24,.6) 45%,rgba(14,16,24,.6) 80%,rgba(14,16,24,.4))}}
 
+/* final art direction */
+.feature{width:min(1280px,94vw);margin:0 auto}.feature img{width:100%;max-height:96vh;object-fit:contain;display:block;margin:0 auto}.feature figcaption{max-width:760px;margin:18px auto 0}
+.season-c{padding:150px 0 40px}.season-c .lede{margin-bottom:56px}
+.tlink{font:500 .72rem var(--sans);letter-spacing:.24em;text-transform:uppercase;color:var(--ink);text-decoration:none;border-bottom:1px solid var(--gold);padding-bottom:6px}.tlink:hover{color:var(--lapis)}
+
+/* anchors land below the sticky header */
+section[id]{scroll-margin-top:90px}
+
+.quietnote{font:500 .66rem var(--sans);letter-spacing:.26em;text-transform:uppercase;color:#7a6a58;text-align:center;margin-top:18px}
+.soon{color:#7a6a58;border-color:var(--line)}
+
