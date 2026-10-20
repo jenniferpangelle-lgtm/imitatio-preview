@@ -129,6 +129,7 @@ h3.sub{text-align:center;font-size:.8rem;letter-spacing:.3em;color:var(--sienna)
 .tcols blockquote{font:italic 1.35rem/1.5 Cormorant,serif;color:#efe3c6;margin:0}.tcols cite{color:var(--gold2)}
 @media(max-width:860px){.tcols{grid-template-columns:1fr}.tcols>div{border-right:0;border-bottom:1px solid rgba(217,189,114,.3)}}
 .comm{background:rgba(255,250,238,.55);border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:120px 0;margin:40px 0 60px}
+.faq details{border-bottom:1px solid var(--line);padding:18px 0}.faq summary{cursor:pointer;font:400 1.3rem Cormorant,serif;color:var(--ink);list-style:none;position:relative;padding-right:30px}.faq summary::-webkit-details-marker{display:none}.faq summary:after{content:"+";position:absolute;right:4px;top:0;color:var(--gold);font:300 1.6rem var(--sans)}.faq details[open] summary:after{content:"–"}.faq details p{margin:10px 0 4px;color:#4a3a2c}
 /* full-bleed painting, catalog style */
 .plate{background:#17110b;color:#e9dcc0;padding:120px 0 90px}
 .plate .lat{color:var(--gold2)}.plate h2{color:#f4ead2}.plate .rule:after{box-shadow:0 0 0 4px #17110b}
