@@ -325,6 +325,11 @@ blockquote cite{display:block;margin-top:14px}
 @media(max-width:1099px){.vrow{grid-template-columns:repeat(2,1fr)!important;max-width:860px}}
 @media(max-width:700px){.mp{padding:88px 0 80px}.mp h2{font-size:clamp(2.2rem,10vw,2.9rem)}.mp-band{padding:64px 0 48px}.vrow{gap:14px!important}.vrow figcaption{font-size:.82rem}.mp-final{padding:100px 0}}
 /* refinement round 2 */
+.saints{display:grid;grid-template-columns:1fr 1fr;gap:20px 70px;max-width:860px;margin:60px auto 0}
+.saints h4{font:500 .66rem var(--sans);letter-spacing:.26em;text-transform:uppercase;color:var(--sienna);margin:0 0 14px}
+.saints ul{list-style:none;margin:0;padding:0}.saints li{position:relative;padding:0 0 9px 18px;font-size:1.02rem;line-height:1.5;color:#4a3a2c}
+.saints li:before{content:"";position:absolute;left:2px;top:.62em;width:5px;height:5px;background:var(--gold);transform:rotate(45deg)}
+@media(max-width:700px){.saints{grid-template-columns:1fr;gap:34px;margin-top:44px}}
 .edl{text-align:center;font:italic 400 clamp(1.25rem,2vw,1.6rem)/1.4 'Cormorant Garamond',Cormorant,serif;color:#4a3a2c;margin:-10px auto 46px;max-width:640px}
 .headshot.hs2 img{box-shadow:none}.headshot figcaption{white-space:nowrap;letter-spacing:.16em}.headshot .hst{color:#9a8a76;font-weight:400}
 @media(max-width:560px){.headshot figcaption{white-space:normal}.headshot .hsn,.headshot .hst{display:block}.headshot .hst{margin-top:6px}.headshot .hsd{display:none}}
