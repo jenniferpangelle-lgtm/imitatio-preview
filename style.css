@@ -305,6 +305,9 @@ blockquote cite{display:block;margin-top:14px}
 .afig{max-width:1100px;margin:50px auto}.afig img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover}
 .afig figcaption,.pcap{font-size:.95rem;color:#6a5a48}.pcred{display:block;margin-top:4px;font:400 .62rem/1.5 var(--sans);letter-spacing:.04em;color:#8a7a68}.pcred a{color:inherit}
 .vl .pcap{margin-top:10px}
+/* AI atmosphere accents (Season #villa only) */
+.accents{display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:860px;margin:80px auto 0}.accents img{display:block;width:100%;aspect-ratio:5/2;object-fit:cover;object-position:50% 60%}.accents img+img{object-position:50% 78%}
+@media(max-width:700px){.accents{gap:12px;margin-top:56px}.accents img{aspect-ratio:4/3}}
 /* home refinement round 2026-10-20 */
 .vgrid,.vl{display:grid;grid-template-columns:1fr 1fr;gap:70px 60px}
 .vgrid{margin:0 0 20px}.vl{margin-top:70px}
