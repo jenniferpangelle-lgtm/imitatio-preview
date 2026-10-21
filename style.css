@@ -301,6 +301,10 @@ blockquote cite{display:block;margin-top:14px}
 
 .go .btn{margin:7px 5px}
 
+/* Assisi stock photos */
+.afig{max-width:1100px;margin:50px auto}.afig img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover}
+.afig figcaption,.pcap{font-size:.95rem;color:#6a5a48}.pcred{display:block;margin-top:4px;font:400 .62rem/1.5 var(--sans);letter-spacing:.04em;color:#8a7a68}.pcred a{color:inherit}
+.vl .pcap{margin-top:10px}
 /* home refinement round 2026-10-20 */
 .vgrid,.vl{display:grid;grid-template-columns:1fr 1fr;gap:70px 60px}
 .vgrid{margin:0 0 20px}.vl{margin-top:70px}
