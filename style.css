@@ -351,7 +351,7 @@ blockquote cite{display:block;margin-top:14px}
 .credl{list-style:none;padding:0;margin:44px auto 0;max-width:660px;text-align:center}
 .credl li{font:500 .7rem var(--sans);letter-spacing:.22em;text-transform:uppercase;color:#5c4e40;line-height:1.7;padding:14px 0;border-top:1px solid var(--line)}
 .credl li:last-child{border-bottom:1px solid var(--line)}.credl em{text-transform:none;letter-spacing:.06em;font:italic 1rem 'Cormorant Garamond',serif}
-.fchoice{display:grid;grid-template-columns:1fr 1fr;gap:0;max-width:760px;margin:0 auto 46px;text-align:center}
+.fchoice{display:grid;grid-template-columns:repeat(3,1fr);gap:0;max-width:1000px;margin:0 auto 46px;text-align:center}
 .fchoice>div{padding:6px 34px}.fchoice>div+div{border-left:1px solid var(--line)}
 .fchoice h3{margin:0 0 4px;font-size:1.2rem;letter-spacing:.12em}.fchoice .dur{font:500 .66rem var(--sans);letter-spacing:.28em;text-transform:uppercase;color:var(--sienna);margin:0 0 12px}.fchoice p{font-size:1.1rem;margin:0}
 .prose .cpb{font-family:Cinzel,serif;font-size:clamp(1.3rem,2.4vw,1.9rem);letter-spacing:.14em;text-transform:uppercase;text-align:center;color:var(--ink);margin:0 0 1.2em}
