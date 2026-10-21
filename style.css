@@ -308,6 +308,20 @@ blockquote cite{display:block;margin-top:14px}
 /* header second line, desktop only */
 .brandsub{display:none}
 @media(min-width:1100px){header.top .brand.logo{flex-direction:column;align-items:flex-start;justify-content:center;gap:5px;text-decoration:none}header.top .brand.logo img{height:54px!important}.brandsub{display:block;font:500 .56rem/1 var(--sans);letter-spacing:.24em;text-transform:uppercase;color:#5c4e40;white-space:nowrap;padding-left:2px}.brandsub i{font-style:normal;color:var(--gold)}}
+/* homepage masterpiece pass */
+.mp{padding:132px 0 120px}
+.mp h2{font-family:Cormorant,'Cormorant Garamond',Georgia,serif;font-weight:500;text-transform:uppercase;letter-spacing:.05em;line-height:.98;font-size:clamp(2.7rem,5.6vw,5.4rem);color:var(--ink);text-wrap:balance;max-width:1000px;margin:0 auto}
+.mp .rule{margin:30px auto 34px}
+.mp .go{margin-top:56px}
+.mp-master .feature{margin-top:10px}
+.mp-band{background:#ece4d4;padding:96px 0 72px}.mp-band .dband{margin:0 auto}
+.mp-villa .prose{margin:40px auto 64px}
+.vrow{grid-template-columns:repeat(4,1fr)!important;gap:22px!important;max-width:1240px;margin:0 auto}
+.vrow figcaption{font-size:.9rem}
+.mp-season{background:#efe8da}
+.mp-final{border-top:0;padding:150px 0}.mp-final h2{font-size:clamp(2.5rem,5vw,4.6rem)}
+@media(max-width:1099px){.vrow{grid-template-columns:repeat(2,1fr)!important;max-width:860px}}
+@media(max-width:700px){.mp{padding:88px 0 80px}.mp h2{font-size:clamp(2.2rem,10vw,2.9rem)}.mp-band{padding:64px 0 48px}.vrow{gap:14px!important}.vrow figcaption{font-size:.82rem}.mp-final{padding:100px 0}}
 /* refinement round 2 */
 .edl{text-align:center;font:italic 400 clamp(1.25rem,2vw,1.6rem)/1.4 'Cormorant Garamond',Cormorant,serif;color:#4a3a2c;margin:-10px auto 46px;max-width:640px}
 .headshot.hs2 img{box-shadow:none}.headshot figcaption{white-space:nowrap;letter-spacing:.16em}.headshot .hst{color:#9a8a76;font-weight:400}
