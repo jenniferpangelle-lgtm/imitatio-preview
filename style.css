@@ -26,7 +26,7 @@ nav a:hover,nav a.on{border-color:var(--gold)}
 .btn{display:inline-block;font-size:.78rem;padding:14px 30px;color:#fffaf0!important;text-decoration:none;border:1px solid #8a6626;cursor:pointer}
 .btn.ghost{background:transparent}
 nav a.btn{padding:9px 18px;border-bottom:1px solid #8a6626}
-.hero{position:relative;min-height:92vh;display:flex;align-items:flex-start;justify-content:center;text-align:center;color:#fbf6ea;background:#3a5a8a url(images/assisi-view.jpg) center 70%/cover}
+.hero{position:relative;min-height:92vh;display:flex;align-items:flex-start;justify-content:center;text-align:center;color:#fbf6ea;background:#3a5a8a url(images/assisi-view-graded.jpg) center 70%/cover}
 .hero:before{content:"";position:absolute;inset:0}
 .hero .in{margin-top:6vh}.open{font:500 .8rem Cinzel;letter-spacing:.3em;color:var(--gold2);margin:0 0 6px}
 .hero .in{position:relative;padding:60px 24px;max-width:1160px}
@@ -300,4 +300,23 @@ blockquote cite{display:block;margin-top:14px}
 @media(max-width:700px){section{padding:84px 0}.pagehead{padding:84px 22px 16px}blockquote{margin:40px auto}.grid{gap:40px}}
 
 .go .btn{margin:7px 5px}
+
+/* home refinement round 2026-10-20 */
+.vgrid,.vl{display:grid;grid-template-columns:1fr 1fr;gap:70px 60px}
+.vgrid{margin:0 0 20px}.vl{margin-top:70px}
+.vgrid figure{margin:0}.vgrid img,.vl figure img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;object-position:50% 50%}
+.vgrid img.fp-aerial{object-position:60% 55%}
+@media(max-width:700px){.vgrid,.vl{grid-template-columns:1fr;gap:44px}}
+.hxid{font:500 .68rem var(--sans);letter-spacing:.32em;text-transform:uppercase;color:var(--gold2);margin:0 0 26px}
+.credl{list-style:none;padding:0;margin:44px auto 0;max-width:660px;text-align:center}
+.credl li{font:500 .7rem var(--sans);letter-spacing:.22em;text-transform:uppercase;color:#5c4e40;line-height:1.7;padding:14px 0;border-top:1px solid var(--line)}
+.credl li:last-child{border-bottom:1px solid var(--line)}.credl em{text-transform:none;letter-spacing:.06em;font:italic 1rem 'Cormorant Garamond',serif}
+.fchoice{display:grid;grid-template-columns:1fr 1fr;gap:0;max-width:760px;margin:0 auto 46px;text-align:center}
+.fchoice>div{padding:6px 34px}.fchoice>div+div{border-left:1px solid var(--line)}
+.fchoice h3{margin:0 0 4px;font-size:1.2rem;letter-spacing:.12em}.fchoice .dur{font:500 .66rem var(--sans);letter-spacing:.28em;text-transform:uppercase;color:var(--sienna);margin:0 0 12px}.fchoice p{font-size:1.1rem;margin:0}
+.prose .cpb{font-family:Cinzel,serif;font-size:clamp(1.3rem,2.4vw,1.9rem);letter-spacing:.14em;text-transform:uppercase;text-align:center;color:var(--ink);margin:0 0 1.2em}
+/* hero ≤1024: photo band on top (hand, brush tip and face together), type below on the photo's dark */
+@media(max-width:1024px){.hx{display:block;height:auto!important;min-height:0!important;background:#0c0e15}.hx .h0bg{position:relative;display:block;height:min(68vw,560px);object-position:70% 42%!important}.hx:before{display:none}.hx .h0in{position:relative;padding:0 7vw 64px}.hx .h0in:before{content:"";position:absolute;left:0;right:0;bottom:100%;height:120px;background:linear-gradient(to bottom,rgba(12,14,21,0),#0c0e15);pointer-events:none}.hx .h0cap{display:none}}
+@media(max-width:700px){.hx .h0bg{height:56svh;object-position:73% 40%!important}.hx .h0in{padding:0 22px 56px}}
+@media(max-width:700px){.fchoice{grid-template-columns:1fr}.fchoice>div{padding:20px 0}.fchoice>div+div{border-left:0;border-top:1px solid var(--line)}.hxid{font-size:.58rem;letter-spacing:.24em;margin-bottom:18px}}
 
