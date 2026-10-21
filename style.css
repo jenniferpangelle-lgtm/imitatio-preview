@@ -324,6 +324,18 @@ blockquote cite{display:block;margin-top:14px}
 .mp-final{border-top:0;padding:150px 0}.mp-final h2{font-size:clamp(2.5rem,5vw,4.6rem)}
 @media(max-width:1099px){.vrow{grid-template-columns:repeat(2,1fr)!important;max-width:860px}}
 @media(max-width:700px){.mp{padding:88px 0 80px}.mp h2{font-size:clamp(2.2rem,10vw,2.9rem)}.mp-band{padding:64px 0 48px}.vrow{gap:14px!important}.vrow figcaption{font-size:.82rem}.mp-final{padding:100px 0}}
+/* atelier v2 (bottega-v2.html only) */
+.atel2{padding:120px 0 110px}.atel2 h2{font-family:Cormorant,serif;font-weight:500;text-transform:uppercase;letter-spacing:.05em;font-size:clamp(2.4rem,4.6vw,4.2rem);line-height:1}
+.agrid{display:grid;grid-template-columns:1fr 1fr;gap:90px 80px;max-width:980px;margin:80px auto 0}
+.ac{text-align:center}.aimg{aspect-ratio:3/2;overflow:hidden;background:#efe7d6;margin-bottom:28px}.aimg>img{width:100%;height:100%;object-fit:cover;display:block}
+.ph{width:100%;height:100%;display:flex;align-items:center;justify-content:center;background:#efe7d6;box-shadow:inset 0 0 0 1px rgba(176,138,62,.35),inset 0 0 0 10px #efe7d6,inset 0 0 0 11px rgba(176,138,62,.2)}.ph img{width:46%;opacity:.7}
+.agrid .ac:last-child:nth-child(odd){grid-column:1/-1;justify-self:center;width:100%;max-width:450px}
+.ait{font:italic 400 1.05rem Cormorant,serif;color:var(--sienna);letter-spacing:.02em;margin:0 0 4px}
+.ac h3{font:500 1.55rem/1.15 Cormorant,serif;text-transform:uppercase;letter-spacing:.12em;color:var(--ink);margin:0}
+.aline{display:block;width:28px;height:1px;background:var(--gold);margin:16px auto 14px}
+.ad{font-size:1.08rem;line-height:1.6;color:#4a3a2c;max-width:340px;margin:0 auto}
+.aconcept{text-align:center;font:italic 1rem Cormorant,serif;color:#7a6a58;margin:80px 0 6px}
+@media(max-width:700px){.atel2{padding:80px 0}.agrid{grid-template-columns:1fr;gap:64px;margin-top:56px}}
 /* refinement round 2 */
 .saints{display:grid;grid-template-columns:1fr 1fr;gap:20px 70px;max-width:860px;margin:60px auto 0}
 .saints h4{font:500 .66rem var(--sans);letter-spacing:.26em;text-transform:uppercase;color:var(--sienna);margin:0 0 14px}
