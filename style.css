@@ -309,6 +309,7 @@ blockquote cite{display:block;margin-top:14px}
 .brandsub{display:none}
 @media(min-width:1100px){header.top .brand.logo{flex-direction:column;align-items:flex-start;justify-content:center;gap:5px;text-decoration:none}header.top .brand.logo img{height:54px!important}.brandsub{display:block;font:500 .56rem/1 var(--sans);letter-spacing:.24em;text-transform:uppercase;color:#5c4e40;white-space:nowrap;padding-left:2px}.brandsub i{font-style:normal;color:var(--gold)}}
 /* refinement round 2 */
+.edl{text-align:center;font:italic 400 clamp(1.25rem,2vw,1.6rem)/1.4 'Cormorant Garamond',Cormorant,serif;color:#4a3a2c;margin:-10px auto 46px;max-width:640px}
 .headshot.hs2 img{box-shadow:none}.headshot figcaption{white-space:nowrap;letter-spacing:.16em}.headshot .hst{color:#9a8a76;font-weight:400}
 @media(max-width:560px){.headshot figcaption{white-space:normal}.headshot .hsn,.headshot .hst{display:block}.headshot .hst{margin-top:6px}.headshot .hsd{display:none}}
 .mintro .credl li:before{content:"";display:inline-block;width:5px;height:5px;background:var(--gold);transform:rotate(45deg);margin:0 14px 0 2px;vertical-align:.18em}
