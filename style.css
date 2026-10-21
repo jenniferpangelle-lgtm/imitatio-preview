@@ -305,6 +305,9 @@ blockquote cite{display:block;margin-top:14px}
 .afig{max-width:1100px;margin:50px auto}.afig img{display:block;width:100%;aspect-ratio:3/2;object-fit:cover}
 .afig figcaption,.pcap{font-size:.95rem;color:#6a5a48}.pcred{display:block;margin-top:4px;font:400 .62rem/1.5 var(--sans);letter-spacing:.04em;color:#8a7a68}.pcred a{color:inherit}
 .vl .pcap{margin-top:10px}
+/* header second line, desktop only */
+.brandsub{display:none}
+@media(min-width:1100px){header.top .brand.logo{flex-direction:column;align-items:flex-start;justify-content:center;gap:5px;text-decoration:none}header.top .brand.logo img{height:54px!important}.brandsub{display:block;font:500 .56rem/1 var(--sans);letter-spacing:.24em;text-transform:uppercase;color:#5c4e40;white-space:nowrap;padding-left:2px}.brandsub i{font-style:normal;color:var(--gold)}}
 /* AI atmosphere accents (Season #villa only) */
 .accents{display:grid;grid-template-columns:1fr 1fr;gap:24px;max-width:860px;margin:80px auto 0}.accents img{display:block;width:100%;aspect-ratio:5/2;object-fit:cover;object-position:50% 60%}.accents img+img{object-position:50% 78%}
 @media(max-width:700px){.accents{gap:12px;margin-top:56px}.accents img{aspect-ratio:4/3}}
