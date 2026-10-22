@@ -424,6 +424,7 @@ footer a{color:#efe6d4!important;text-decoration:underline;text-decoration-color
 .bsoon{font:500 .72rem var(--sans);letter-spacing:.28em;text-transform:uppercase;color:#b08a3e;text-align:center;margin:22px 0 0}
 .acomm .lat{display:block}
 .bpro .frame{text-align:center}.bpro .frame img{margin:0 auto}
+.blogo .bword sup.tm{font-size:.5em;line-height:0;vertical-align:.9em;letter-spacing:0;margin-left:.12em;color:inherit;position:relative}
 /* five changes 2026-10-22 */
 .mintro .mgo{margin-top:14px;text-align:left}
 @media(max-width:800px){.mintro .mgo{text-align:center}}
