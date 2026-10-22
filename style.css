@@ -439,6 +439,19 @@ footer a{color:#efe6d4!important;text-decoration:underline;text-decoration-color
 /* nav hairline */
 header.top{border-bottom:1px solid #b08a3e;transition:box-shadow .25s}
 header.top.scrolled{box-shadow:0 2px 10px rgba(43,33,24,.08)}
+/* work layout 2026-10-22 */
+.wk-main .frame,.wk-dg .mat,.wk-prep .mat,.terni .tgal .frame{aspect-ratio:4/5;padding:10px!important;background:#f7f2e8!important;border:1px solid #b08a3e!important;outline:1px solid rgba(176,138,62,.75);outline-offset:-8px;box-shadow:0 8px 22px rgba(43,33,25,.10),0 1px 3px rgba(43,33,25,.08);box-sizing:border-box;display:block;overflow:hidden}
+.wk-main .frame img,.wk-dg .mat img,.wk-dg figure img,.wk-prep .mat img,.terni .tgal .frame img{width:100%!important;height:100%!important;max-height:none!important;object-fit:contain!important;display:block;margin:0}
+.wk-main figcaption,.wk-dg figcaption,.wk-prep figcaption,.terni .tgal figcaption,.wk-inst figcaption{margin:14px 0 0!important;padding:0!important}
+.wk-main .grid{grid-template-columns:repeat(3,1fr);gap:48px 36px}
+.wk-dg .dg{grid-template-columns:repeat(4,1fr);gap:40px 28px;align-items:start}
+.wk-dg .dg figure:last-child:nth-child(4n+3){grid-column:span 2}
+.wk-dg .dg figure:last-child:nth-child(4n+3) .mat{aspect-ratio:1.69/1}
+.wk-prep{grid-template-columns:repeat(3,1fr)!important;align-items:start}
+.wk-inst .grid{grid-template-columns:1fr 1fr;gap:48px 36px}
+.wk-inst .mat{aspect-ratio:4/3;overflow:hidden}
+.wk-inst .mat img{width:100%!important;height:100%!important;max-height:none!important;object-fit:cover!important;display:block}
+@media(max-width:700px){.wk-main .grid,.wk-dg .dg{grid-template-columns:1fr 1fr;gap:28px 16px}.wk-dg .dg figure:last-child:nth-child(odd){grid-column:1/-1}.wk-dg .dg figure:last-child:nth-child(odd) .mat{aspect-ratio:1.69/1}.wk-prep,.wk-inst .grid{grid-template-columns:1fr!important}.wk-main .frame,.wk-dg .mat{padding:7px!important;outline-offset:-5px}}
 /* five changes 2026-10-22 */
 .mintro .mgo{margin-top:14px;text-align:left}
 @media(max-width:800px){.mintro .mgo{text-align:center}}
