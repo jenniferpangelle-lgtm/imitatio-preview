@@ -432,6 +432,10 @@ footer a{color:#efe6d4!important;text-decoration:underline;text-decoration-color
 .fthanks .fpb{font-size:1.25rem;margin:18px 0 28px}.fthanks .fbtns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
 .app[hidden],.fthanks[hidden],.ferr[hidden]{display:none!important}
 .ferr{color:#2b2119;text-align:center;margin:18px 0 0}
+.cphotos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;max-width:1100px;margin:64px auto 0}
+.cphotos figure{margin:0}.cphotos img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block}
+.cphotos .cp1{object-position:68% 40%}.cphotos .cp2{object-position:8% 50%}.cphotos .cp3{object-position:55% 50%}
+@media(max-width:600px){.cphotos{grid-template-columns:1fr;gap:32px;margin-top:44px}}
 /* five changes 2026-10-22 */
 .mintro .mgo{margin-top:14px;text-align:left}
 @media(max-width:800px){.mintro .mgo{text-align:center}}
