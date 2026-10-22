@@ -452,6 +452,13 @@ header.top.scrolled{box-shadow:0 2px 10px rgba(43,33,24,.08)}
 .wk-inst .mat{aspect-ratio:4/3;overflow:hidden}
 .wk-inst .mat img{width:100%!important;height:100%!important;max-height:none!important;object-fit:cover!important;display:block}
 @media(max-width:700px){.wk-main .grid,.wk-dg .dg{grid-template-columns:1fr 1fr;gap:28px 16px}.wk-dg .dg figure:last-child:nth-child(odd){grid-column:1/-1}.wk-dg .dg figure:last-child:nth-child(odd) .mat{aspect-ratio:1.69/1}.wk-prep,.wk-inst .grid{grid-template-columns:1fr!important}.wk-main .frame,.wk-dg .mat{padding:7px!important;outline-offset:-5px}}
+.olg-text{max-width:760px;margin:0 auto 56px}
+.olg-pair{display:grid;grid-template-columns:1fr 1fr;gap:36px;max-width:1000px;margin:0 auto 80px;align-items:start}
+.olg-pair .frame{aspect-ratio:4/5;overflow:hidden}
+.olg-pair .frame img{width:100%!important;height:100%!important;max-height:none!important;object-fit:cover!important;display:block}
+.olg-pair figcaption{margin:14px 0 0!important;padding:0!important}
+.olg-pair figure:nth-child(2) img{object-position:40% 50%}
+@media(max-width:700px){.olg-pair{grid-template-columns:1fr}}
 /* five changes 2026-10-22 */
 .mintro .mgo{margin-top:14px;text-align:left}
 @media(max-width:800px){.mintro .mgo{text-align:center}}
