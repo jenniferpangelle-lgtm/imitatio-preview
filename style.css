@@ -434,3 +434,20 @@ footer a{color:#efe6d4!important;text-decoration:underline;text-decoration-color
 .fmt img.ftau{position:absolute;left:0;top:50%;width:36px;height:auto;padding:8px;background:#efe6d4;transform:translate(-50%,-50%);box-sizing:content-box;display:block;margin:0;z-index:1}
 @media(max-width:900px){.fmt img.ftau{left:50%;top:0}}
 #casa.atel2::before{content:'';display:block;width:36px;height:37px;margin:0 auto 28px;background:url(images/brand/tau-simple-gold.png) center/36px auto no-repeat}
+
+/* ---- spacing tighten 2026-10-22 (sitewide, class-less sections only) ---- */
+section{padding:64px 0}
+section+section{padding-top:0}
+section[style*="background"],section.alight{padding-top:64px;padding-bottom:64px}
+section[style*="background"]+section,section.alight+section{padding-top:48px}
+section:has(+section[style*="background"]),section:has(+section.alight){padding-bottom:48px}
+.pagehead{padding-top:72px}
+.pagehead+section{padding-top:40px}
+.rule{margin-bottom:30px}
+.facts{margin-bottom:0}
+section>.wrap>.go:first-child{margin-top:0}
+@media(max-width:700px){section{padding:44px 0}section+section{padding-top:0}
+section[style*="background"],section.alight{padding-top:44px;padding-bottom:44px}
+section[style*="background"]+section,section.alight+section{padding-top:36px}
+section:has(+section[style*="background"]),section:has(+section.alight){padding-bottom:36px}
+.pagehead{padding-top:48px}.pagehead+section{padding-top:28px}.rule{margin-bottom:24px}}
