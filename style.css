@@ -324,6 +324,11 @@ blockquote cite{display:block;margin-top:14px}
 .mp-final{border-top:0;padding:150px 0}.mp-final h2{font-size:clamp(2.5rem,5vw,4.6rem)}
 @media(max-width:1099px){.vrow{grid-template-columns:repeat(2,1fr)!important;max-width:860px}}
 @media(max-width:700px){.mp{padding:88px 0 80px}.mp h2{font-size:clamp(2.2rem,10vw,2.9rem)}.mp-band{padding:64px 0 48px}.vrow{gap:14px!important}.vrow figcaption{font-size:.82rem}.mp-final{padding:100px 0}}
+/* atelier text list */
+.alight{background:#efe8da}
+.alist{gap:0 80px;max-width:900px;margin-top:64px}.alist .ac{text-align:left;border-top:1px solid var(--line);padding:30px 0 34px}
+.alist .aline{margin:12px 0 12px}.alist .ad{margin:0;max-width:none}.alist .ac h3{font-size:1.35rem}
+.alist .ac:last-child:nth-child(odd){grid-column:auto!important;justify-self:stretch!important;max-width:none!important}
 /* atelier v2 (bottega-v2.html only) */
 .atel2{padding:120px 0 110px}.atel2 h2{font-family:Cormorant,serif;font-weight:500;text-transform:uppercase;letter-spacing:.05em;font-size:clamp(2.4rem,4.6vw,4.2rem);line-height:1}
 .agrid{display:grid;grid-template-columns:1fr 1fr;gap:90px 80px;max-width:980px;margin:80px auto 0}
@@ -379,3 +384,9 @@ blockquote cite{display:block;margin-top:14px}
 @media(max-width:700px){.hx .h0bg{height:56svh;object-position:73% 40%!important}.hx .h0in{padding:0 22px 56px}}
 @media(max-width:700px){.fchoice{grid-template-columns:1fr}.fchoice>div{padding:20px 0}.fchoice>div+div{border-left:0;border-top:1px solid var(--line)}.hxid{font-size:.58rem;letter-spacing:.24em;margin-bottom:18px}}
 
+
+/* homepage eyebrow (2026-10-21) */
+.eb{font:italic 400 1.15rem Cormorant,serif;color:var(--sienna);letter-spacing:.02em;margin:0 0 6px;text-align:center}
+.ebx{text-align:left;color:var(--gold2);font-size:clamp(1rem,1.6vw,1.25rem);margin:0 0 22px}
+.dts{font:italic 400 .98rem Cormorant,serif;color:var(--muted,#8a7f70);margin:-2px 0 10px}
+.ensub{font:italic 400 1.05rem Cormorant,serif;color:var(--sienna);margin:-4px 0 8px}
