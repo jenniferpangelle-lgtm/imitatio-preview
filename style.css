@@ -412,11 +412,16 @@ header.top .brand.logo.blogo img.btau{height:48px!important;width:auto;display:b
 .hlogo{background:#efe6d4;text-align:center;padding:48px 24px 44px;border-bottom:1px solid var(--line)}
 .hlogo img{width:min(720px,86vw);height:auto;display:block;margin:0 auto}
 footer{background:#2b2119!important;color:#efe6d4!important}
-footer a{color:#d9bd72!important}footer a:hover{color:#efe6d4!important}footer small{color:#cdbf9f}
-.fseal{display:inline-block;border:0!important}.fseal img{width:120px;height:auto;display:block;margin:0 auto}
-.fmotto{font:italic 400 1.25rem Cormorant,serif;color:#d9bd72;letter-spacing:.04em;margin:14px 0 22px}
+footer a{color:#efe6d4!important;text-decoration:underline;text-decoration-color:rgba(239,230,212,.35);text-underline-offset:3px}footer a:hover{color:#efe6d4!important;text-decoration-color:#efe6d4;opacity:.8}footer small{color:#cdbf9f}
+.fseal{display:inline-block;border:0!important;text-decoration:none!important;padding:8px}.fseal img{width:140px;height:auto;display:block;margin:0 auto}
+.fmotto{font:italic 400 1.25rem Cormorant,serif;color:#efe6d4;letter-spacing:.04em;margin:18px 0 24px}
 .cseal{margin:0;text-align:center}.cseal img{width:280px;max-width:100%;height:auto;margin:0 auto}
 @media(min-width:1100px){.cgrid{grid-template-columns:280px 1fr 1.3fr!important;gap:48px!important}}
-@media(max-width:1099px){.cgrid{grid-template-columns:1fr!important;gap:36px!important}.cgrid>div:not(.mat){text-align:center}.cgrid .sub{text-align:center!important}.cgrid .rule{margin-left:auto!important;margin-right:auto!important}}
-.astamp{text-align:center;margin:10px 0 4px}.astamp img{width:140px;height:auto;margin:0 auto;transform:rotate(-7deg);opacity:.92}
-.bdiv{text-align:center;margin:20px 0 56px}.bdiv img{width:200px;height:auto;margin:0 auto}
+@media(max-width:1099px){.cgrid{grid-template-columns:1fr!important;gap:36px!important}.cgrid>div:not(.mat){text-align:center}.cgrid .sub{text-align:center!important}.cgrid .cseal{order:3;margin-top:12px}.cgrid .rule{margin-left:auto!important;margin-right:auto!important}}
+.astamp{text-align:center;margin:40px 0 36px;pointer-events:none;cursor:default;user-select:none}.astamp img{width:140px;height:auto;margin:0 auto;transform:rotate(-2.5deg);opacity:.95;pointer-events:none;cursor:default}
+.bclose{text-align:center;padding:40px 24px 88px!important;background:#efe6d4}.bclose img{width:220px;height:auto;margin:0 auto;display:block}
+/* Tau dividers: clear space = crossbar height (~8px at 36px) */
+.fmt .f:nth-child(2){position:relative}
+.fmt .f:nth-child(2)::before{content:'';position:absolute;left:0;top:50%;width:36px;height:37px;padding:8px;transform:translate(-50%,-50%);background:#efe6d4 url(images/brand/tau-simple-gold.png) center/36px auto no-repeat;box-sizing:content-box}
+@media(max-width:900px){.fmt .f:nth-child(2)::before{left:50%;top:0}}
+#casa.atel2::before{content:'';display:block;width:36px;height:37px;margin:0 auto 28px;background:url(images/brand/tau-simple-gold.png) center/36px auto no-repeat}
