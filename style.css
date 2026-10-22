@@ -385,6 +385,8 @@ blockquote cite{display:block;margin-top:14px}
 @media(max-width:700px){.fchoice{grid-template-columns:1fr}.fchoice>div{padding:20px 0}.fchoice>div+div{border-left:0;border-top:1px solid var(--line)}.hxid{font-size:.58rem;letter-spacing:.24em;margin-bottom:18px}}
 
 
+.tlead{max-width:1100px;margin:0 auto 80px}.tlead img{width:100%;height:auto;display:block}
+.tgal{grid-template-columns:1fr 1fr;max-width:980px;margin:0 auto}@media(max-width:700px){.tgal{grid-template-columns:1fr}}
 /* homepage eyebrow (2026-10-21) */
 .eb{font:italic 400 1.15rem Cormorant,serif;color:var(--sienna);letter-spacing:.02em;margin:0 0 6px;text-align:center}
 .ebx{text-align:left;color:var(--gold2);font-size:clamp(1rem,1.6vw,1.25rem);margin:0 0 22px}
