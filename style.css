@@ -418,13 +418,20 @@ footer a{color:#efe6d4!important;text-decoration:underline;text-decoration-color
 .cseal{margin:0;text-align:center}.cseal img{width:280px;max-width:100%;height:auto;margin:0 auto}
 @media(min-width:1100px){.cgrid{grid-template-columns:280px 1fr 1.3fr!important;gap:48px!important}}
 @media(max-width:1099px){.cgrid{grid-template-columns:1fr!important;gap:36px!important}.cgrid>div:not(.mat){text-align:center}.cgrid .sub{text-align:center!important}.cgrid .cseal{order:3;margin-top:12px}.cgrid .rule{margin-left:auto!important;margin-right:auto!important}}
-.astamp{text-align:center;margin:40px 0 36px;pointer-events:none;cursor:default;user-select:none}.astamp img{width:140px;height:auto;margin:0 auto;transform:rotate(-2.5deg);opacity:.95;pointer-events:none;cursor:default}
+.astamp{text-align:center;margin:40px 0 36px;pointer-events:none;cursor:default;user-select:none}.astamp img{width:140px;height:auto;margin:0 auto;opacity:.95;pointer-events:none;cursor:default}
 .bclose{text-align:center;padding:40px 24px 88px!important;background:#efe6d4}.bclose img{width:220px;height:auto;margin:0 auto;display:block}
 /* bottega/commissions 2026-10-22 */
 .bsoon{font:500 .72rem var(--sans);letter-spacing:.28em;text-transform:uppercase;color:#b08a3e;text-align:center;margin:22px 0 0}
 .acomm .lat{display:block}
 .bpro .frame{text-align:center}.bpro .frame img{margin:0 auto}
 .blogo .bword sup.tm{font-size:.5em;line-height:0;vertical-align:.9em;letter-spacing:0;margin-left:.12em;color:inherit;position:relative}
+.app .nm{display:grid;grid-template-columns:140px 1fr 1fr;gap:inherit;column-gap:22px}
+@media(max-width:700px){.app .nm{grid-template-columns:1fr}}
+.fthanks{text-align:center;padding:24px 8px}.fthanks img{width:36px;height:auto;margin:0 auto 22px;display:block}
+.fthanks .fth{font:400 2.4rem/1.1 Cinzel,serif;letter-spacing:.08em;color:#2b2119;margin:0 0 18px}
+.fthanks .fpb{font-size:1.25rem;margin:18px 0 28px}.fthanks .fbtns{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.app[hidden],.fthanks[hidden],.ferr[hidden]{display:none!important}
+.ferr{color:#2b2119;text-align:center;margin:18px 0 0}
 /* five changes 2026-10-22 */
 .mintro .mgo{margin-top:14px;text-align:left}
 @media(max-width:800px){.mintro .mgo{text-align:center}}
