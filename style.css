@@ -385,7 +385,9 @@ blockquote cite{display:block;margin-top:14px}
 @media(max-width:700px){.fchoice{grid-template-columns:1fr}.fchoice>div{padding:20px 0}.fchoice>div+div{border-left:0;border-top:1px solid var(--line)}.hxid{font-size:.58rem;letter-spacing:.24em;margin-bottom:18px}}
 
 
-.app label.chk{display:flex;align-items:flex-start;gap:.6em;margin-top:14px;font-family:inherit;font-size:.85rem;line-height:1.5;color:#7a6650;font-weight:400;text-transform:none;letter-spacing:normal;cursor:pointer}.app label.chk input[type="checkbox"]{flex:0 0 auto;width:1em;height:1em;margin:.25em 0 0;padding:0;accent-color:var(--gold)}.app label.chk span{font-family:inherit}
+.app label.chk{display:flex;align-items:flex-start;gap:.6em;margin-top:14px;font-family:inherit;font-size:.85rem;line-height:1.5;color:#4a3a2c;font-weight:400;text-transform:none;letter-spacing:normal;cursor:pointer}
+.app label.chk input[type="checkbox"]{flex:0 0 auto;width:1em;height:1em;margin:.25em 0 0;padding:0;accent-color:var(--gold)}
+.app label.chk span{font-family:inherit}
 .menu a.btn{white-space:nowrap}@media(max-width:1180px) and (min-width:901px){.menu a.btn{padding-left:14px;padding-right:14px;letter-spacing:.12em}}
 .apic{max-width:480px;margin:56px auto 0}.apic img{width:100%;height:auto;display:block;opacity:.88;border-radius:2px;box-shadow:0 10px 30px rgba(60,40,20,.08)}
 .tlead{max-width:1100px;margin:0 auto 80px}.tlead img{width:100%;height:auto;display:block}
@@ -395,3 +397,26 @@ blockquote cite{display:block;margin-top:14px}
 .ebx{text-align:left;color:var(--gold2);font-size:clamp(1rem,1.6vw,1.25rem);margin:0 0 22px}
 .dts{font:italic 400 .98rem Cormorant,serif;color:var(--muted,#8a7f70);margin:-2px 0 10px}
 .ensub{font:italic 400 1.05rem Cormorant,serif;color:var(--sienna);margin:-4px 0 8px}
+/* ---- logo set + palette v2 (2026-10-22) ---- */
+:root{--sienna:#4a3a2c;--plaster:#efe6d4}
+body{background-color:#efe6d4!important}
+.mp-season,.alight,.trans,.aimg,.ph,.ddm,nav#mainnav{background-color:#f7f2e8!important}
+figcaption,.land li span,.h0img figcaption,.bleed figcaption,.afig figcaption,.pcap,.quietnote,.soon,.aconcept,.headshot figcaption,.credl li,.brandsub{color:#4a3a2c!important}
+.tba{color:#1f3a72!important}
+.brand.logo.blogo{display:flex;align-items:center;gap:12px;line-height:1;text-decoration:none}
+header.top .brand.logo.blogo{flex-direction:row!important;align-items:center!important;gap:12px!important}
+header.top .brand.logo.blogo img.btau{height:48px!important;width:auto;display:block}
+.blogo .btxt{display:flex;flex-direction:column;gap:6px}
+.blogo .bword{font:500 1.55rem/1 Cinzel,serif;letter-spacing:.14em;text-transform:uppercase;color:#2b2119}
+@media(max-width:900px){.blogo .brandsub{display:none}.blogo .bword{font-size:1.3rem}header.top .brand.logo.blogo img.btau{height:40px!important}}
+.hlogo{background:#efe6d4;text-align:center;padding:48px 24px 44px;border-bottom:1px solid var(--line)}
+.hlogo img{width:min(720px,86vw);height:auto;display:block;margin:0 auto}
+footer{background:#2b2119!important;color:#efe6d4!important}
+footer a{color:#d9bd72!important}footer a:hover{color:#efe6d4!important}footer small{color:#cdbf9f}
+.fseal{display:inline-block;border:0!important}.fseal img{width:120px;height:auto;display:block;margin:0 auto}
+.fmotto{font:italic 400 1.25rem Cormorant,serif;color:#d9bd72;letter-spacing:.04em;margin:14px 0 22px}
+.cseal{margin:0;text-align:center}.cseal img{width:280px;max-width:100%;height:auto;margin:0 auto}
+@media(min-width:1100px){.cgrid{grid-template-columns:280px 1fr 1.3fr!important;gap:48px!important}}
+@media(max-width:1099px){.cgrid{grid-template-columns:1fr!important;gap:36px!important}.cgrid>div:not(.mat){text-align:center}.cgrid .sub{text-align:center!important}.cgrid .rule{margin-left:auto!important;margin-right:auto!important}}
+.astamp{text-align:center;margin:10px 0 4px}.astamp img{width:140px;height:auto;margin:0 auto;transform:rotate(-7deg);opacity:.92}
+.bdiv{text-align:center;margin:20px 0 56px}.bdiv img{width:200px;height:auto;margin:0 auto}
