@@ -436,6 +436,9 @@ footer a{color:#efe6d4!important;text-decoration:underline;text-decoration-color
 .cphotos figure{margin:0}.cphotos img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block}
 .cphotos .cp1{object-position:68% 40%}.cphotos .cp2{object-position:8% 50%}.cphotos .cp3{object-position:55% 50%}
 @media(max-width:600px){.cphotos{grid-template-columns:1fr;gap:32px;margin-top:44px}}
+/* nav hairline */
+header.top{border-bottom:1px solid #b08a3e;transition:box-shadow .25s}
+header.top.scrolled{box-shadow:0 2px 10px rgba(43,33,24,.08)}
 /* five changes 2026-10-22 */
 .mintro .mgo{margin-top:14px;text-align:left}
 @media(max-width:800px){.mintro .mgo{text-align:center}}
