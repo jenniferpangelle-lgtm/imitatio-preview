@@ -420,6 +420,10 @@ footer a{color:#efe6d4!important;text-decoration:underline;text-decoration-color
 @media(max-width:1099px){.cgrid{grid-template-columns:1fr!important;gap:36px!important}.cgrid>div:not(.mat){text-align:center}.cgrid .sub{text-align:center!important}.cgrid .cseal{order:3;margin-top:12px}.cgrid .rule{margin-left:auto!important;margin-right:auto!important}}
 .astamp{text-align:center;margin:40px 0 36px;pointer-events:none;cursor:default;user-select:none}.astamp img{width:140px;height:auto;margin:0 auto;transform:rotate(-2.5deg);opacity:.95;pointer-events:none;cursor:default}
 .bclose{text-align:center;padding:40px 24px 88px!important;background:#efe6d4}.bclose img{width:220px;height:auto;margin:0 auto;display:block}
+/* bottega/commissions 2026-10-22 */
+.bsoon{font:500 .72rem var(--sans);letter-spacing:.28em;text-transform:uppercase;color:#b08a3e;text-align:center;margin:22px 0 0}
+.acomm .lat{display:block}
+.bpro .frame{text-align:center}.bpro .frame img{margin:0 auto}
 /* five changes 2026-10-22 */
 .mintro .mgo{margin-top:14px;text-align:left}
 @media(max-width:800px){.mintro .mgo{text-align:center}}
