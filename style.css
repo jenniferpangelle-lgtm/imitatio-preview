@@ -456,6 +456,8 @@ section:has(+section[style*="background"]),section:has(+section.alight){padding-
 .pagehead+section{padding-top:40px}
 .rule{margin-bottom:30px}
 .facts{margin-bottom:0}
+header.top .blogo .brandsub{display:block!important;font:500 .56rem/1 var(--sans);letter-spacing:.24em;text-transform:uppercase;white-space:nowrap;padding-left:2px}
+@media(max-width:1099px){.blogo .bsx{display:none}}
 h1,h2,h3,h4{text-wrap:balance}
 @media(max-width:600px){br.bk{display:none}}
 .facts{grid-template-columns:repeat(5,1fr)}
