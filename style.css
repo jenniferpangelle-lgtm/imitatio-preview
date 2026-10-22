@@ -459,6 +459,8 @@ header.top.scrolled{box-shadow:0 2px 10px rgba(43,33,24,.08)}
 .olg-pair figcaption{margin:14px 0 0!important;padding:0!important}
 .olg-pair figure:nth-child(2) img{object-position:40% 50%}
 @media(max-width:700px){.olg-pair{grid-template-columns:1fr}}
+footer small a.fcred{white-space:nowrap;color:#cdbf9f!important;text-decoration-color:rgba(205,191,159,.4)}
+footer small a.fcred:hover{color:#cdbf9f!important;text-decoration-color:#cdbf9f}
 /* five changes 2026-10-22 */
 .mintro .mgo{margin-top:14px;text-align:left}
 @media(max-width:800px){.mintro .mgo{text-align:center}}
