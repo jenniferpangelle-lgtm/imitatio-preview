@@ -420,6 +420,10 @@ footer a{color:#efe6d4!important;text-decoration:underline;text-decoration-color
 @media(max-width:1099px){.cgrid{grid-template-columns:1fr!important;gap:36px!important}.cgrid>div:not(.mat){text-align:center}.cgrid .sub{text-align:center!important}.cgrid .cseal{order:3;margin-top:12px}.cgrid .rule{margin-left:auto!important;margin-right:auto!important}}
 .astamp{text-align:center;margin:40px 0 36px;pointer-events:none;cursor:default;user-select:none}.astamp img{width:140px;height:auto;margin:0 auto;transform:rotate(-2.5deg);opacity:.95;pointer-events:none;cursor:default}
 .bclose{text-align:center;padding:40px 24px 88px!important;background:#efe6d4}.bclose img{width:220px;height:auto;margin:0 auto;display:block}
+/* five changes 2026-10-22 */
+.mintro .mgo{margin-top:14px;text-align:left}
+@media(max-width:800px){.mintro .mgo{text-align:center}}
+.feature img.dframe{width:auto;max-width:calc(100% - 22px);max-height:calc(96vh - 22px);padding:10px;background:#f7f2e8;border:1px solid #b08a3e;outline:1px solid rgba(176,138,62,.75);outline-offset:-8px;box-shadow:0 8px 22px rgba(43,33,25,.10),0 1px 3px rgba(43,33,25,.08);box-sizing:content-box}
 /* Tau dividers: clear space = crossbar height (~8px at 36px) */
 .fmt .f{position:relative}
 .fmt img.ftau{position:absolute;left:0;top:50%;width:36px;height:auto;padding:8px;background:#efe6d4;transform:translate(-50%,-50%);box-sizing:content-box;display:block;margin:0;z-index:1}
