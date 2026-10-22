@@ -421,7 +421,7 @@ footer a{color:#efe6d4!important;text-decoration:underline;text-decoration-color
 .astamp{text-align:center;margin:40px 0 36px;pointer-events:none;cursor:default;user-select:none}.astamp img{width:140px;height:auto;margin:0 auto;transform:rotate(-2.5deg);opacity:.95;pointer-events:none;cursor:default}
 .bclose{text-align:center;padding:40px 24px 88px!important;background:#efe6d4}.bclose img{width:220px;height:auto;margin:0 auto;display:block}
 /* Tau dividers: clear space = crossbar height (~8px at 36px) */
-.fmt .f:nth-child(2){position:relative}
-.fmt .f:nth-child(2)::before{content:'';position:absolute;left:0;top:50%;width:36px;height:37px;padding:8px;transform:translate(-50%,-50%);background:#efe6d4 url(images/brand/tau-simple-gold.png) center/36px auto no-repeat;box-sizing:content-box}
-@media(max-width:900px){.fmt .f:nth-child(2)::before{left:50%;top:0}}
+.fmt .f{position:relative}
+.fmt img.ftau{position:absolute;left:0;top:50%;width:36px;height:auto;padding:8px;background:#efe6d4;transform:translate(-50%,-50%);box-sizing:content-box;display:block;margin:0;z-index:1}
+@media(max-width:900px){.fmt img.ftau{left:50%;top:0}}
 #casa.atel2::before{content:'';display:block;width:36px;height:37px;margin:0 auto 28px;background:url(images/brand/tau-simple-gold.png) center/36px auto no-repeat}
